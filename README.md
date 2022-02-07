@@ -11,7 +11,7 @@
 
 1. Install the repository where you want.
 
-1. Open command shell into the repository and type "make first" if it's the first install, or type "make".
+1. Open command shell into the repository and type make.
 
 1. Run ApplicHoraire.app
 

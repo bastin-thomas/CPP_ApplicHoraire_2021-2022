@@ -14,7 +14,7 @@ LibHoraire = ./Horaire
 LibQT = ./InterfaceQt
 
 #Repertoire de tout les .o (Parfois en fichier Cacher)
-bin = ./.obj
+bin = ./obj
 
 #Application Final:
 ApplicHoraire:	$(*.o)
@@ -123,8 +123,3 @@ clear:
 		rm $(*.o)
 		rm ApplicHoraire.app
 		clear
-
-first: dir ApplicHoraire
-
-dir: 
-		mkdir ./.obj
